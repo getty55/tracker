@@ -1,0 +1,36 @@
+.input {
+    text-align: right;
+    margin: 0.5rem;
+}
+
+.input label {
+    padding-right: 1rem;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+
+.input-invalid {
+    text-align: right;
+    margin: 0.5rem;
+}
+
+.input-invalid label {
+    padding-right: 1rem;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+
+.input-invalid input {
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.input-invalid p {
+    text-align: right;
+    margin: 0.2rem;
+    color: #faea07;
+    font-size: small;
+    font-weight: bolder;
+}

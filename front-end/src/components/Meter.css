@@ -1,0 +1,46 @@
+.meter {
+    height: 100%;
+    width: 8%;
+    padding-top: 0.3rem;
+    display: inline-block;
+}
+
+.bar {
+    height: 110px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: #bde3dc;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 35%;
+}
+
+.percentage {
+    background-color: #c8e676;
+    width: 100%;
+    transition: all 3s ease-out;
+}
+
+.meter label {
+    font-size: x-small;
+    font-weight: bolder;
+    padding: 0 0.17rem;
+    color: #0fb37c;
+}
+
+@media (min-width: 85rem) {
+    .meter {
+        padding-top: 00.5rem;
+    }
+
+    .bar {
+        height: 130px;
+        margin-bottom: 0.3rem;
+    }
+
+    .meter label {
+        font-size: small;
+    }
+}

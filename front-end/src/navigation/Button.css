@@ -1,0 +1,60 @@
+.button {
+    padding: 0.5rem;
+    background-color: #a4cf4e;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.5s ease 0s;
+}
+
+.button:hover {
+    background-color: #97e20d;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.button:disabled {
+    background-color: #6b6363;
+    transition: none;
+    cursor: not-allowed;
+}
+
+.button:disabled:hover {
+    transform: none;
+}
+
+.button-delete {
+    display: flex;
+    position: absolute;
+    padding: 0 0.3rem;
+    top: 0.3rem;
+    right: 0.3rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    border: none;
+    background-color: #a4cf4e;
+    border-radius: 50%;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.button-delete:hover {
+    transform: none;
+}
+
+@media (min-width: 40rem) {
+    .button-delete {
+        padding: 0.04rem 0.38rem;
+        top: 0.4rem;
+        right: 0.4rem;
+        width: 1.3rem;
+        height: 1.3rem;
+        font-size: medium;
+        font-weight: bolder;
+    }
+}

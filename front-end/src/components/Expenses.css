@@ -1,0 +1,20 @@
+.expenses {
+    margin: 1rem 5%;
+    padding: 0.5rem;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.05));
+    border-radius: 15px;
+}
+
+@media (min-width: 40rem) {
+    .expenses {
+        margin: 1rem 20%;
+        width: 60%;
+    }
+}
+
+@media (min-width: 60rem) {
+    .expenses {
+        margin: 1rem 30%;
+        width: 40%;
+    }
+}
